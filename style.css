@@ -1,0 +1,51 @@
+body {
+	background-color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 5px;
+	text-decoration: none;
+}
+
+#login {
+	border: 3px solid blue;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+.main {
+	display: block;
+	width: 100%;
+	margin: 10% auto;
+	border: 3px solid gray;
+	padding: 10px;
+	text-align: center;
+}
+
+.forms {
+	display: inline-block;
+	width: 50%;
+	border: 3px solid gray;
+	margin: auto;
+}
+
+.buttons {
+	padding: 2%;
+	//border: 3px solid gray;
+}
