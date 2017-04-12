@@ -1,54 +1,99 @@
 body {
 	background-color: white;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	overflow: hidden;
 }
 
-li {
+.header {
 	float: right;
 }
 
-li a {
-	display: block;
-	color: #000;
-	text-align: center;
-	padding: 14px 5px;
+.header li{
+	display: inline-block;
+}
+
+.header li a {
 	text-decoration: none;
 	font-family: arial, sans-serif;
+	color: #000;
 	font-size: 13px;
-	line-height: 24px;
+	padding: 5px;
 }
 
-#login {
-	border: 3px solid blue;
-	background-color: blue;
+.content {
+	clear: both;
+	margin-top: 10px;
+}
+
+#sign-in {
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
 	color: white;
-	border-radius: 5px;
-	padding: 2px 5px;
+	padding: 7px 10px;
+	font-weight: bold;
+	border-radius: 2px;
 }
 
-.main {
+img {
+		height: 90px;
+		display: block;
+		padding-top: 120px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+input[type="text"] {
 	display: block;
-	width: 100%;
-	margin: 10% auto;
-	border: 3px solid gray;
-	padding: 10px;
+	margin: 30px auto 20px auto;
+	font-size: 16px;
+	padding: 7px;
+	width: 500px;
+	
+	background-color: transparent;
+}
+
+.button-section {
+	display: block;
 	text-align: center;
 }
 
-.forms {
-	display: inline-block;
-	width: 50%;
-	border: 3px solid gray;
-	margin: auto;
+button {
+	height: 36px;
+	line-height: 27px;
+	background-color: #fff;
+	color: #757575;
+	padding: 0 16px;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
 }
 
-.buttons {
-	padding: 2%;
-	//border: 3px solid gray;
+.footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #757575;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	line-height: 10px;
+}
+
+.footer li {
+	display: inline-block;
+	padding: 10px
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
 }

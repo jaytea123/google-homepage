@@ -6,28 +6,54 @@
 	</head>
 	
 	<body>
-		<header>
+		<div class="main-container">
+			<div class="header">
+				<nav>
+					<ul>
+						<li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
+						<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=rMPnWNWVLonX0gKf1K2YCQ&ved=0EKouCBgoAQ">Images</a></li>
+						<li><a href="#">Icon</a></li>
+						<li><a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/#identifier">Sign in</a></li>
+					</ul>
+				</nav>
+			</div><!--/header -->
+
+			<div class="content">
+				<div class="google-logo">
+					<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"/>
+				</div><!--/google-logo -->
+
+				<div class="search-bar">
+					<form>
+						<input type="text" name="search"/>
+					</form>
+				</div><!--/search-bar -->
+
+				<div class="button-section">
+					<button type="button">Google Search</button>
+					<button type="button">I'm Feeling Lucky</button>
+				</div><!--/button-section -->
+			</div><!--/content -->
+
+			<div class="footer">
 			<nav>
 				<ul>
-					<li><a id="login" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/#identifier">Sign in</a></li>
-					<li><a href="https://www.google.com/intl/en/about/products/"><img src="https://www.google.com/intl/en/options/"/></a></li>
-					<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=rMPnWNWVLonX0gKf1K2YCQ&ved=0EKouCBgoAQ">Images</a></li>
-					<li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
+					<span id="left">
+						<li>Advertising</li>
+						<li>Business</li>
+						<li>About</li>
+					</span>
+
+					<span id="right">
+						<li>Privacy</li>
+						<li>Terms</li>
+						<li>Settings</li>
+					</span>
 				</ul>
 			</nav>
-		</header>
-		
-		<div class="main">
-			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-			<form action="#">
-				<div class="forms">
-					<input type="text"/>
-					<div class="buttons">
-						<input type="submit" value="Google Search"/>
-						<input type="submit" value="I'm Feeling Lucky"/>
-					</div>
-				</div>
-			</form>
-		</div>
+			</div><!--/footer -->
+				
+			</div><!--/content -->
+		</div><!--/main-container -->
 	</body>
 </html>
